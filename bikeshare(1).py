@@ -36,7 +36,15 @@ def get_filters():
             break
         else:
             print("Invalid choice. Please enter 'month', 'day', or 'not at all'.")
-            """User to Specify a month, and day to analyze"""
+            """User to Specify a month, and day to analyze Args:
+               None
+
+               Returns:
+              str: city - name of the city to analyze
+              str: month - name of the month to filter by, or "all" to apply no month filter
+              str: day - name of the day of the week to filter by, or "all" to apply no day filter
+              """
+
 
     if filter_choice == 'month':
         while True:
