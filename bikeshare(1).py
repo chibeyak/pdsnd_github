@@ -32,16 +32,17 @@ def get_filters():
             
     while True:
         filter_choice = input("Would you like to filter the data by month, day, or not at all? ").lower()
-        if filter_choice in ['month', 'day', 'not at all']:
+        if filter_choice in ['month', 'day', 'all']:
             break
         else:
-            print("Invalid choice. Please enter 'month', 'day', or 'not at all'.")
-            """User to Specify a month, and day to analyze Args:
+            print("Invalid choice. Please enter 'month', 'day', or 'all'.")
+            """User to Specify a month, day or all to analyze 
+               Args:
                None
 
                Returns:
-              str: city - name of the city to analyze
-              str: month - name of the month to filter by, or "all" to apply no month filter
+               str: city - name of the city to analyze
+               str: month - name of the month to filter by, or "all" to apply no month filter
               str: day - name of the day of the week to filter by, or "all" to apply no day filter
               """
 
