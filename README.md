@@ -7,7 +7,8 @@
 BikeShare Data Analysis
 
 ### Description
-Describe what your project is about and what it does
+This project is a Python script 
+that analyzes bike-sharing data from three different cities namely, Chicago, New York, and Washington. The script is coded such that an interactive experience is provided users to explore and understand the dataset. It prompts users to input data to determine the city and timeframe for data analysis, allows users to filter the data by month or day, and displays statistical results based on user selections.
 
 ### Files used
 Include the files used
